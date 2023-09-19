@@ -1,0 +1,28 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "default": 34,
+      "name": "customerid",
+      "type": "int"
+    },
+    {
+      "default": 8900,
+      "name": "customeramount",
+      "type": "int"
+    },
+    {
+      "default": "rohitha",
+      "name": "customername",
+      "type": "string"
+    },
+    {
+      "default": "Bank Transfer",
+      "name": "paymenttype",
+      "type": "string"
+    }
+  ],
+  "name": "Customer",
+  "namespace": "com.snow.schema",
+  "type": "record"
+}
